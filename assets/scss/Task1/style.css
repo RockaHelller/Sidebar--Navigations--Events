@@ -1,0 +1,37 @@
+body {
+  background-color: grey;
+}
+
+/*#region Task1ClassTraining*/
+.topbar {
+  width: 100%;
+  height: 200px;
+  background-color: blueviolet;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.hide {
+  transform: translateY(-200px);
+}
+
+i {
+  position: absolute;
+  top: 210px;
+}
+
+ul {
+  display: flex !important;
+  gap: 60px;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+li {
+  display: inherit;
+  padding: 10px 40px;
+  background-color: red;
+  border-radius: 4px;
+}
+
+/*#endregion*//*# sourceMappingURL=style.css.map */
